@@ -1,0 +1,16 @@
+.flower {
+  text-transform: capitalize;
+}
+
+.retailers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.retailCard {
+  margin: 5px 10px;
+}
+
+.flowersUl {
+  text-transform: capitalize;
+}

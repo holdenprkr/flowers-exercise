@@ -1,0 +1,226 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "commonName": "tulips",
+      "colorId": 1
+    },
+    {
+      "id": 2,
+      "commonName": "sunflower",
+      "colorId": 2
+    },
+    {
+      "id": 3,
+      "commonName": "lotus",
+      "colorId": 1
+    },
+    {
+      "id": 4,
+      "commonName": "dandelion",
+      "colorId": 3
+    },
+    {
+      "id": 5,
+      "commonName": "marigold",
+      "colorId": 2
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "name": "Flowers 'N' Stuff",
+      "city": "Charlotte",
+      "state": "NC",
+      "distributorId": 2
+    },
+    {
+      "id": 2,
+      "name": "Flower Power",
+      "city": "Nashville",
+      "state": "TN",
+      "distributorId": 3
+    },
+    {
+      "id": 3,
+      "name": "Flower Shower",
+      "city": "Memphis",
+      "state": "TN",
+      "distributorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Atlanta Planta",
+      "city": "Atlanta",
+      "state": "GA",
+      "distributorId": 1
+    },
+    {
+      "id": 5,
+      "name": "Austin Flowers",
+      "city": "Wilmington",
+      "state": "NC",
+      "distributorId": 1
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "KaBloom",
+      "city": "Savannah",
+      "state": "GA"
+    },
+    {
+      "id": 2,
+      "name": "Flow Chicka Wow Wow",
+      "city": "Miami",
+      "state": "FL"
+    },
+    {
+      "id": 3,
+      "name": "Flowers Inc",
+      "city": "Nashville",
+      "state": "TN"
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Posy Pusher"
+    },
+    {
+      "id": 2,
+      "name": "Dandelion Division"
+    },
+    {
+      "id": 3,
+      "name": "The Stalk Market"
+    },
+    {
+      "id": 4,
+      "name": "Plant Parenthood"
+    },
+    {
+      "id": 5,
+      "name": "Sherwood Florist"
+    }
+  ],
+  "flowerNurseries": [
+    {
+      "id": 1,
+      "nurserieId": 1,
+      "flowerId": 1
+    },
+    {
+      "id": 2,
+      "nurserieId": 1,
+      "flowerId": 5
+    },
+    {
+      "id": 3,
+      "nurserieId": 2,
+      "flowerId": 4
+    },
+    {
+      "id": 4,
+      "nurserieId": 2,
+      "flowerId": 2
+    },
+    {
+      "id": 5,
+      "nurserieId": 3,
+      "flowerId": 1
+    },
+    {
+      "id": 6,
+      "nurserieId": 3,
+      "flowerId": 3
+    },
+    {
+      "id": 7,
+      "nurserieId": 4,
+      "flowerId": 2
+    },
+    {
+      "id": 8,
+      "nurserieId": 4,
+      "flowerId": 1
+    },
+    {
+      "id": 9,
+      "nurserieId": 5,
+      "flowerId": 4
+    },
+    {
+      "id": 10,
+      "nurserieId": 5,
+      "flowerId": 5
+    }
+  ],
+  "distNurs": [
+    {
+      "id": 1,
+      "nurserieId": 1,
+      "distributorId": 1
+    },
+    {
+      "id": 2,
+      "nurserieId": 5,
+      "distributorId": 1
+    },
+    {
+      "id": 3,
+      "nurserieId": 2,
+      "distributorId": 2
+    },
+    {
+      "id": 4,
+      "nurserieId": 4,
+      "distributorId": 2
+    },
+    {
+      "id": 5,
+      "nurserieId": 3,
+      "distributorId": 3
+    },
+    {
+      "id": 6,
+      "nurserieId": 2,
+      "distributorId": 3
+    },
+    {
+      "id": 7,
+      "nurserieId": 5,
+      "distributorId": 4
+    },
+    {
+      "id": 8,
+      "nurserieId": 4,
+      "distributorId": 4
+    },
+    {
+      "id": 9,
+      "nurserieId": 5,
+      "distributorId": 5
+    },
+    {
+      "id": 10,
+      "nurserieId": 3,
+      "distributorId": 5
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "color": "pink"
+    },
+    {
+      "id": 2,
+      "color": "yellow"
+    },
+    {
+      "id": 3,
+      "color": "white"
+    }
+  ]
+}
